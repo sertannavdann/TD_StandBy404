@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7610623765618713371
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3249790195471468848, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195471468848, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    - target: {fileID: 3249790195471468862, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195471468863, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_text
+      value: 0,3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195471468863, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4,
+        type: 2}
+    - target: {fileID: 3249790195471468863, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.3372549
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195471468863, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.9333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195471468863, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.6156863
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195471468863, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_fontMaterial
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195471468863, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_faceColor.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195471468863, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    - target: {fileID: 3249790195471468863, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4283887261
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195572981052, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_Name
+      value: TilePlaceable
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195572981053, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195572981053, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195572981053, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195572981053, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195572981053, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195572981053, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195572981053, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195572981053, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195572981053, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195572981053, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249790195572981053, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303088175519042588, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827825783149380584, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: floorMesh
+      value: 
+      objectReference: {fileID: 7307182921012799860, guid: 65434932f88ce417ea64ecce091036f5,
+        type: 3}
+    - target: {fileID: 5827825783149380584, guid: ffbc48ec98b4345b09a9480d0c52198a,
+        type: 3}
+      propertyPath: isPlaceable
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ffbc48ec98b4345b09a9480d0c52198a, type: 3}
