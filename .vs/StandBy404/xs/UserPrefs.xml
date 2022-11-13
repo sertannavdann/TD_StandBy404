@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{F2277650-5883-D58F-99B4-112D2DCF0C75}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Flooring/CoordinateLabeler.cs">
+    <Files>
+      <File FileName="Assets/Flooring/CoordinateLabeler.cs" Line="57" Column="1" />
+      <File FileName="Assets/Flooring/WayPoint.cs" Line="23" Column="1" />
+      <File FileName="Assets/Bank/Bank.cs" Line="41" Column="37" />
+      <File FileName="Assets/Enemy/EnemyHealth.cs" Line="5" Column="1" />
+      <File FileName="Assets/Enemy/EnemyMover.cs" Line="46" Column="10" />
+      <File FileName="Assets/Enemy/ObjectPool.cs" Line="8" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StandBy404" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="AssetPacks" expanded="True">
+                <Node name="TextMesh Pro" expanded="True">
+                  <Node name="Shaders" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Bank" expanded="True" />
+              <Node name="Enemy" expanded="True" />
+              <Node name="Flooring" expanded="True" />
+              <Node name="Scenes" expanded="True" />
+              <Node name="Towers" expanded="True" />
+            </Node>
+            <Node name="Packages" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4d4a184c-e362-48ae-848a-9b9b12b041b1" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

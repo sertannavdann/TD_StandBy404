@@ -1,0 +1,2174 @@
+Unity Editor version:    2021.3.4f1 (cb45f9cae8b7)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.0 (Build 22A380)
+Darwin version:          22.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/Shared/D/Entertain/CS50G/UNITY/StandBy404
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53801
+Successfully changed project path to: /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404
+/Users/Shared/D/Entertain/CS50G/UNITY/StandBy404
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 80.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56759
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001425 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 76.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.441 seconds
+Domain Reload Profiling:
+	ReloadAssembly (442ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (314ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (64ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (201ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005224 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+- Completed reload, in  0.665 seconds
+Domain Reload Profiling:
+	ReloadAssembly (665ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (542ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (135ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.22 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3533 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (66.1 KB). Loaded Objects now: 3982.
+Memory consumption went from 94.9 MB to 94.8 MB.
+Total: 6.766792 ms (FindLiveObjects: 0.133792 ms CreateObjectMapping: 0.043208 ms MarkObjects: 6.455916 ms  DeleteObjects: 0.133125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 60602.801290 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs
+  artifactKey: Guid(5bff2544887143f5807c7d5059d07f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs using Guid(5bff2544887143f5807c7d5059d07f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e52360a66bc01653f123193d795dd8') in 0.007532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003501 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras
+  artifactKey: Guid(ce51c8e33b734b4db6086586558c53a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras using Guid(ce51c8e33b734b4db6086586558c53a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2915a3e2f537059c05de7f5fd4958d') in 0.000511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.788368 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc497803c0650e980b81bcf651e18b86') in 0.000714 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001659 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x2a819f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.585 seconds
+Domain Reload Profiling:
+	ReloadAssembly (585ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (448ms)
+			LoadAssemblies (39ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (147ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (205ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3514 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (47.8 KB). Loaded Objects now: 3985.
+Memory consumption went from 96.7 MB to 96.7 MB.
+Total: 2.503250 ms (FindLiveObjects: 0.127666 ms CreateObjectMapping: 0.043875 ms MarkObjects: 2.253500 ms  DeleteObjects: 0.077375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001948 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f70f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.660 seconds
+Domain Reload Profiling:
+	ReloadAssembly (660ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (475ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (153ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (214ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3514 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (47.7 KB). Loaded Objects now: 3988.
+Memory consumption went from 100.1 MB to 100.1 MB.
+Total: 2.915792 ms (FindLiveObjects: 0.205583 ms CreateObjectMapping: 0.060000 ms MarkObjects: 2.531375 ms  DeleteObjects: 0.118208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 121.291029 seconds.
+  path: Assets/AssetPacks/ZerinLabs_enviroKit_RetroForest/Scenes
+  artifactKey: Guid(33d9674a14866ae47b1e9653f2bc5e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/ZerinLabs_enviroKit_RetroForest/Scenes using Guid(33d9674a14866ae47b1e9653f2bc5e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fb36e7eac5238203e14b7dd249dc88') in 0.020380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.427665 seconds.
+  path: Assets/AssetPacks/ZerinLabs_enviroKit_RetroForest/Scenes/scn_demoScene_varC.unity
+  artifactKey: Guid(f62506692b2d0564a9c6f195ef900c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/ZerinLabs_enviroKit_RetroForest/Scenes/scn_demoScene_varC.unity using Guid(f62506692b2d0564a9c6f195ef900c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87781f15510d905f2a65f5a85d93965c') in 0.000620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.948628 seconds.
+  path: Assets/AssetPacks/ZerinLabs_enviroKit_RetroForest/Scenes/scn_demoScene_varB.unity
+  artifactKey: Guid(de7c5c8b8c1a3c14b9b4ed688b349ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/ZerinLabs_enviroKit_RetroForest/Scenes/scn_demoScene_varB.unity using Guid(de7c5c8b8c1a3c14b9b4ed688b349ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0af98b5eb3eb54b682158d5d2ddfbda') in 0.000607 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001604 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f10b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.663 seconds
+Domain Reload Profiling:
+	ReloadAssembly (664ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (481ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (166ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (210ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3514 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (47.8 KB). Loaded Objects now: 3991.
+Memory consumption went from 103.5 MB to 103.4 MB.
+Total: 3.053625 ms (FindLiveObjects: 0.155125 ms CreateObjectMapping: 0.045250 ms MarkObjects: 2.753750 ms  DeleteObjects: 0.098875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 297.252689 seconds.
+  path: Assets/AssetPacks/ZerinLabs_enviroKit_RetroForest/Prefabs/scn_demoScene_level_varA.prefab
+  artifactKey: Guid(3e90d43ae0f8b3f4e88e6000eb2fb563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/ZerinLabs_enviroKit_RetroForest/Prefabs/scn_demoScene_level_varA.prefab using Guid(3e90d43ae0f8b3f4e88e6000eb2fb563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e689456549fa10e4292b8363c6ed39') in 1.160507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 504.206283 seconds.
+  path: Assets/Flooring/(0, 0).prefab
+  artifactKey: Guid(ffbc48ec98b4345b09a9480d0c52198a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooring/(0, 0).prefab using Guid(ffbc48ec98b4345b09a9480d0c52198a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8872c809acfc429b6164a78c6c16db82') in 0.063106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.682314 seconds.
+  path: Assets/Flooring/TilePlaceable.prefab
+  artifactKey: Guid(9cfe4841e724e4654bb2080a23cd76c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooring/TilePlaceable.prefab using Guid(9cfe4841e724e4654bb2080a23cd76c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae29132f4d518fb002951b333e3c640') in 0.057680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.634940 seconds.
+  path: Assets/Flooring/(-2, 2).prefab
+  artifactKey: Guid(9cfe4841e724e4654bb2080a23cd76c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooring/(-2, 2).prefab using Guid(9cfe4841e724e4654bb2080a23cd76c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0711fc9f68ed7d7a0b8b9f1baa2cf3') in 0.055892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.436120 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials
+  artifactKey: Guid(4f1e85c79acf49968737939ce8b445c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials using Guid(4f1e85c79acf49968737939ce8b445c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce275b30c052cf1f149b0e10fce388cc') in 0.001068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074029 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
+  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7cf52c142360214e40f466d8a4de5d') in 0.121932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b26bf2faee97dff1ac7bfd1ecafe354') in 0.123415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001792 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
+  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f4194a14729ff8cbb8ef1cf32b5bfa') in 0.019302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat
+  artifactKey: Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat using Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143887a2c803762632fc665c092301f4') in 0.030031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fa67ea3f3cee4466190e5072b17731') in 0.033709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
+  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058f32a441133c0bf0a8722798268d83') in 0.016659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
+  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8995fa8620a0a6a8df607b2fd488a79') in 0.119396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f00807aaa1185174748065b43963233') in 0.023826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002009 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5c8a21a71334c3b13543dd2615e4d5') in 0.040583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000943 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a280fc8e49ddc8e5fa05306d750807') in 0.035921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87f34adf690c276c7043589269cae09') in 0.030846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1622.538462 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (50).prefab
+  artifactKey: Guid(5dc0e15cdd56b48bbbc26f079af45604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (50).prefab using Guid(5dc0e15cdd56b48bbbc26f079af45604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4643fb0c9311ac0ac5842d17a9c9f34b') in 0.065115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002426 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (21).prefab
+  artifactKey: Guid(d3419c659dea74c64b7fcf65f380fdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (21).prefab using Guid(d3419c659dea74c64b7fcf65f380fdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4e9290696db5348ca8f890b3f8360b') in 0.005915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (18).prefab
+  artifactKey: Guid(1fc3b4cbe9aa041a69cda3f18aa947b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (18).prefab using Guid(1fc3b4cbe9aa041a69cda3f18aa947b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20b7b2853af827117b89b02a7adcea7') in 0.007093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (31).prefab
+  artifactKey: Guid(c059f6b20af5c44a389fe4122cea41ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (31).prefab using Guid(c059f6b20af5c44a389fe4122cea41ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed2401e415ff746e315c53f638b6b34') in 0.005578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (13).prefab
+  artifactKey: Guid(33d503c17773d44eeb752fb6bbee141e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (13).prefab using Guid(33d503c17773d44eeb752fb6bbee141e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aeb740a876ba3813fd2a5dacf5a72e7') in 0.006270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (16).prefab
+  artifactKey: Guid(302962e2d3f344d178ed3cf02464716c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (16).prefab using Guid(302962e2d3f344d178ed3cf02464716c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90620634225afeebfb17180b0fa3ee60') in 0.009112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (16).prefab
+  artifactKey: Guid(034687c2a29724543aa4d913c9c191d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (16).prefab using Guid(034687c2a29724543aa4d913c9c191d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd09b1508e5b8e63fbf8953a795e04e') in 0.009352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (8).prefab
+  artifactKey: Guid(a774500227d5344ebb7dbf88303b7c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (8).prefab using Guid(a774500227d5344ebb7dbf88303b7c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274ff9725165483364346c7b6a4cedca') in 0.006293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/stairs_wallLeft (1).prefab
+  artifactKey: Guid(a19e46efe639f4596a226ffc0f5f79a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/stairs_wallLeft (1).prefab using Guid(a19e46efe639f4596a226ffc0f5f79a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560314cfbaad787404c3c7e8f9583bc6') in 0.005925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/stairs_wallLeft (2).prefab
+  artifactKey: Guid(614686e243d1849e0b0664ea6668312b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/stairs_wallLeft (2).prefab using Guid(614686e243d1849e0b0664ea6668312b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4c947e7a7b7e30ce6b6cd6d7c8e326') in 0.006021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000733 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (14).prefab
+  artifactKey: Guid(426eba987cda542cbbe4a3eae9bc2653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (14).prefab using Guid(426eba987cda542cbbe4a3eae9bc2653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931059ef43ef940926f20e8e6821efa9') in 0.006502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_3vert (1).prefab
+  artifactKey: Guid(1bee043f6aaf345608e10f4cb0689162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_3vert (1).prefab using Guid(1bee043f6aaf345608e10f4cb0689162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464e7e5ee9da2400eee26e564e358ed5') in 0.006273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (6).prefab
+  artifactKey: Guid(bd2027c9740314bd4b7c6517f25d74e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (6).prefab using Guid(bd2027c9740314bd4b7c6517f25d74e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958ec4f509d3dbd55a5d06343695204d') in 0.006849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_2lines (4).prefab
+  artifactKey: Guid(e19dc446474974768974ff4399b24f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_2lines (4).prefab using Guid(e19dc446474974768974ff4399b24f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c9aeb2a4c5d5ffbb8263bd6e2719e1') in 0.005645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (17).prefab
+  artifactKey: Guid(b363da181a95d4d91b63d7c39ee9683a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (17).prefab using Guid(b363da181a95d4d91b63d7c39ee9683a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0902634fade8a5f26397286368455b') in 0.006011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001726 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (24).prefab
+  artifactKey: Guid(dfe1cfe4511954aea82166f382a8f3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (24).prefab using Guid(dfe1cfe4511954aea82166f382a8f3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503664a67dd0a9c2e72249da6725848c') in 0.006068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (35).prefab
+  artifactKey: Guid(c5d497937880d4b2baf071fe818db9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (35).prefab using Guid(c5d497937880d4b2baf071fe818db9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021e3481ceac4b048c609793c1c4e86c') in 0.006130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (40).prefab
+  artifactKey: Guid(7fbc6bd68202b440dbf002c9dafbcda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (40).prefab using Guid(7fbc6bd68202b440dbf002c9dafbcda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a4eea512d4de28b68d1a397f367218') in 0.006818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (22).prefab
+  artifactKey: Guid(bf3d18ade6a5441f1906f4e0bd5f1af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (22).prefab using Guid(bf3d18ade6a5441f1906f4e0bd5f1af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64ca43e8ded4d955e9100d7150f7118') in 0.005881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (2).prefab
+  artifactKey: Guid(ce8cb1b32f95f41adbcf6f98575ab22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (2).prefab using Guid(ce8cb1b32f95f41adbcf6f98575ab22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f2a1b89b7459277e02a9a01e2b09c6') in 0.005329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (37).prefab
+  artifactKey: Guid(e5c56074ca7c2457091e579f29cc788e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (37).prefab using Guid(e5c56074ca7c2457091e579f29cc788e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27880498ad04f54240fe9405bc3b4f16') in 0.006961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (17).prefab
+  artifactKey: Guid(b759e2fd24fde45e396c079dfa1a0e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (17).prefab using Guid(b759e2fd24fde45e396c079dfa1a0e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d14e4ec0e364daa4277aab20f78098') in 0.006315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (3).prefab
+  artifactKey: Guid(ce5fdec89b36b4230931f735fa8b244c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (3).prefab using Guid(ce5fdec89b36b4230931f735fa8b244c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5365788dd6fc6430c4b83714a6f75cc5') in 0.006340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (9).prefab
+  artifactKey: Guid(34816390b817144248dc05e4375650fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (9).prefab using Guid(34816390b817144248dc05e4375650fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b448152bc1200e1469d067218074dba1') in 0.005866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (26).prefab
+  artifactKey: Guid(ea0d9ad7a0dbb4307a9e26973d606278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (26).prefab using Guid(ea0d9ad7a0dbb4307a9e26973d606278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490bbe8e8ff2eff6dee37d51f56e18b2') in 0.005989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (15).prefab
+  artifactKey: Guid(fa3bb30f578004c4482cfcfcb576d27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (15).prefab using Guid(fa3bb30f578004c4482cfcfcb576d27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53af39cb4aae960f55dd1620fdc60240') in 0.006105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001301 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (9).prefab
+  artifactKey: Guid(0b983b6f97423481b892b9818e782ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (9).prefab using Guid(0b983b6f97423481b892b9818e782ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54015900af873c0d4cd3da360aeff0d') in 0.006420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_3lines (1).prefab
+  artifactKey: Guid(9f205678be74240b09773f28955b9b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_3lines (1).prefab using Guid(9f205678be74240b09773f28955b9b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54425dcdcf83b6d125c95ee48db17e42') in 0.006343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (49).prefab
+  artifactKey: Guid(e6debf2605a7049c5aacf6703bc76270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (49).prefab using Guid(e6debf2605a7049c5aacf6703bc76270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002c5851f9ecfb1c36ef10c270991f8f') in 0.007895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (11).prefab
+  artifactKey: Guid(c344d9fdd989440458244109f2692157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (11).prefab using Guid(c344d9fdd989440458244109f2692157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238f901bf19d41129c1eeb3170e8d69a') in 0.006173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_2vert (4).prefab
+  artifactKey: Guid(758f8bfc6cbc64e898edf045e1b68669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_2vert (4).prefab using Guid(758f8bfc6cbc64e898edf045e1b68669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbe166f64241be4e29e62561ee7e6b6') in 0.006149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002063 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/stairs_noWalls (5).prefab
+  artifactKey: Guid(93ff175bf16dd417ab5156624545381c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/stairs_noWalls (5).prefab using Guid(93ff175bf16dd417ab5156624545381c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64a7f6d70d7cfbcaa60bf181262bda3') in 0.006173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (12).prefab
+  artifactKey: Guid(12d741d5e8c294b34800492c8b89c983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (12).prefab using Guid(12d741d5e8c294b34800492c8b89c983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b4d55febabc95b373011ce60909fdf') in 0.006063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (4).prefab
+  artifactKey: Guid(c51f93681ca7e4bb0a50ce4a27d2035f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (4).prefab using Guid(c51f93681ca7e4bb0a50ce4a27d2035f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8655c0698b84c7879a9463be553f6dc') in 0.006295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (2).prefab
+  artifactKey: Guid(0bc88e4e457bd4496974f03333797f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (2).prefab using Guid(0bc88e4e457bd4496974f03333797f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c1e2a4353573635749c57e4aa002ff') in 0.005653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/stairs_wallRight (2).prefab
+  artifactKey: Guid(d4cd8410869734330ac7da67d5be9458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/stairs_wallRight (2).prefab using Guid(d4cd8410869734330ac7da67d5be9458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a7c9b0a87071e1f0ff5cb7f5450e37') in 0.005709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (10).prefab
+  artifactKey: Guid(e399dd94820004a73b1fc216610a68c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (10).prefab using Guid(e399dd94820004a73b1fc216610a68c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b621d88b0a2e4275a0d81325b42b0dc2') in 0.005393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (3).prefab
+  artifactKey: Guid(0a932e1fe750b4b86bc585be0b0d067b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (3).prefab using Guid(0a932e1fe750b4b86bc585be0b0d067b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbfb1cb9e4ae945bd792ddbf6392618') in 0.005378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/stairs_noWalls (3).prefab
+  artifactKey: Guid(163e667f0bdb84b5aa490734b799cbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/stairs_noWalls (3).prefab using Guid(163e667f0bdb84b5aa490734b799cbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f90cb5425c86f772ae9c216bda77add') in 0.006485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (47).prefab
+  artifactKey: Guid(a5f50822232064b389efc43904dfa054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/floorEdge_corner (47).prefab using Guid(a5f50822232064b389efc43904dfa054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21438fa080d9a6765e2c9ca8ddda584') in 0.006075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.481268 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (19).prefab
+  artifactKey: Guid(57188f67ac4b547f5a4c7b36b9190806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (19).prefab using Guid(57188f67ac4b547f5a4c7b36b9190806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4380a685f44413545ac7a86a23edc886') in 0.009023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (23).prefab
+  artifactKey: Guid(7422e4ac01cff48f398b51d692244df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (23).prefab using Guid(7422e4ac01cff48f398b51d692244df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2cfc7e26815be6ad494bef663c37ae') in 0.007035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (21).prefab
+  artifactKey: Guid(66efd3c24ec9842428f95b1788fdcb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (21).prefab using Guid(66efd3c24ec9842428f95b1788fdcb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b95ced8c6532a572421b4a85ff911a') in 0.006457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (26).prefab
+  artifactKey: Guid(4077988bbfda544a3908216782acdf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (26).prefab using Guid(4077988bbfda544a3908216782acdf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4a8ba28ec01470f23440f43a7bd0b0') in 0.005933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002901 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (56).prefab
+  artifactKey: Guid(158edca1ec12542ffb364c40f728a2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (56).prefab using Guid(158edca1ec12542ffb364c40f728a2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6aee05f3a24c57fcef28ed31c4b0239') in 0.006868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (48).prefab
+  artifactKey: Guid(d9e2fc9bfe3514ed19656064b04c64e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (48).prefab using Guid(d9e2fc9bfe3514ed19656064b04c64e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0246d075ee0d50fd7de8adb23d49b1') in 0.005801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (59).prefab
+  artifactKey: Guid(25be395fb41224d84901c11789779b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (59).prefab using Guid(25be395fb41224d84901c11789779b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c42ae710276a9f2ab6719f9617829f') in 0.006862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (27).prefab
+  artifactKey: Guid(97e041621a205449e9367ba5dc965136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (27).prefab using Guid(97e041621a205449e9367ba5dc965136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0826f34d0095b02488bbb10c3176f617') in 0.008256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (44).prefab
+  artifactKey: Guid(82a3c1f460b734a87aadefb6e7cff653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (44).prefab using Guid(82a3c1f460b734a87aadefb6e7cff653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a697a8c34aa80106541d1f3544fd05c4') in 0.007010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001345 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (43).prefab
+  artifactKey: Guid(6c8fa736de58049f2972e1eb19810458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (43).prefab using Guid(6c8fa736de58049f2972e1eb19810458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540e8f21591774524c456d84029799ec') in 0.005419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (38).prefab
+  artifactKey: Guid(da44dca2a7b7741768c6acfa51278433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (38).prefab using Guid(da44dca2a7b7741768c6acfa51278433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b7aa783b4f4fb49d258c21ab8b1b06') in 0.006075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (57).prefab
+  artifactKey: Guid(93129b8bb477b4f539ad2a77195e3257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (57).prefab using Guid(93129b8bb477b4f539ad2a77195e3257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f783967768c23321767d5970262fdec7') in 0.007241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (29).prefab
+  artifactKey: Guid(a3f20b7c3387a41b1bc4494446815868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (29).prefab using Guid(a3f20b7c3387a41b1bc4494446815868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e0241c7df5cd522333d8862cbff5f5') in 0.006041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (53).prefab
+  artifactKey: Guid(fc3d2cfbbebdb4745a55024699e9483e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (53).prefab using Guid(fc3d2cfbbebdb4745a55024699e9483e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5627c3dcd3e5b9ace1d9d70205d0f230') in 0.005946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001716 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (22).prefab
+  artifactKey: Guid(3c4a8bb36d0434e109d2d1977b2d3f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (22).prefab using Guid(3c4a8bb36d0434e109d2d1977b2d3f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6289b4cb5efda677d1e99f61ec5229') in 0.005124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (58).prefab
+  artifactKey: Guid(b5d6df608ad4c48f2b9ef4378379e095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (58).prefab using Guid(b5d6df608ad4c48f2b9ef4378379e095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7c3a0849f3d226bc838ea1a14f019f') in 0.005697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015767 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (61).prefab
+  artifactKey: Guid(7b395fa4ff52d4dda83058cbf0c5d078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (61).prefab using Guid(7b395fa4ff52d4dda83058cbf0c5d078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3d17a1a5e5ff65be4a8bc55cc370ec') in 0.008358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001011 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (83).prefab
+  artifactKey: Guid(e69b585471f9e46a594c11e10ab0d512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (83).prefab using Guid(e69b585471f9e46a594c11e10ab0d512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bfc89f63a4c67fb12f3a50678f7c4f') in 0.005423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (80).prefab
+  artifactKey: Guid(7a049411003f044a4b63da62b027086b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (80).prefab using Guid(7a049411003f044a4b63da62b027086b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98f36211988d94a54ee0222bd66e65b') in 0.006387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (67).prefab
+  artifactKey: Guid(2dc9d4e4cafb747e5aa0c94da6c8c84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (67).prefab using Guid(2dc9d4e4cafb747e5aa0c94da6c8c84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492080014240a932ef4db3373529a50b') in 0.006636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (77).prefab
+  artifactKey: Guid(4c39895299b484a6cb71e04595e6f561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (77).prefab using Guid(4c39895299b484a6cb71e04595e6f561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4e1c0f216a39bc55b8345f0d52359b') in 0.006193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003644 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (81).prefab
+  artifactKey: Guid(be4882681635e4851a308f8bbcaae65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (81).prefab using Guid(be4882681635e4851a308f8bbcaae65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd6117c8d46d7f2d961344097f81add') in 0.005850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (78).prefab
+  artifactKey: Guid(06566fac79e23438a9a7bad08437b020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (78).prefab using Guid(06566fac79e23438a9a7bad08437b020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3e44ba3eef33dba2cdc62213d74aae') in 0.006545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (65).prefab
+  artifactKey: Guid(eaa3fe1ef49d34b4ca17d6d53cfbedd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (65).prefab using Guid(eaa3fe1ef49d34b4ca17d6d53cfbedd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1105dfffd2070da106029a6c6d6664e2') in 0.007783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.214398 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (85).prefab
+  artifactKey: Guid(71e371f025e584171abbe79ba10c0a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (85).prefab using Guid(71e371f025e584171abbe79ba10c0a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd97b1959d677400c495920f05c891c9') in 0.008267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004682 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (94).prefab
+  artifactKey: Guid(56162b886921e482eaf87befffca498c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (94).prefab using Guid(56162b886921e482eaf87befffca498c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07e9fe257f5ee053d09d52414a346e5') in 0.008918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (97).prefab
+  artifactKey: Guid(bd3c78eacd9364b868489bfc5644beed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (97).prefab using Guid(bd3c78eacd9364b868489bfc5644beed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affb927c30715b0648112ffbbe198619') in 0.005393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (102).prefab
+  artifactKey: Guid(f1a3259ec019b4f048cf0ee8a5d7a2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (102).prefab using Guid(f1a3259ec019b4f048cf0ee8a5d7a2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476fcb9ce3416530eeb7562df7c9b615') in 0.006296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001127 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (155).prefab
+  artifactKey: Guid(533b9c295a1fa4f1ea9d4650a6de246a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (155).prefab using Guid(533b9c295a1fa4f1ea9d4650a6de246a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eceb8ca86c6f2c8b9cba71c8c907cc53') in 0.006668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (152).prefab
+  artifactKey: Guid(0c912cc9cee914ad39ca0ede1cb4820d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (152).prefab using Guid(0c912cc9cee914ad39ca0ede1cb4820d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c24c0b1a7171625e5736391f506e6a') in 0.005666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (149).prefab
+  artifactKey: Guid(61b119e18054b4f6899015a357b39946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (149).prefab using Guid(61b119e18054b4f6899015a357b39946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abde43054cc34c30d4f82d8e14e5f7e8') in 0.006546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (9).prefab
+  artifactKey: Guid(f633ca684f05842ae9c188889624d149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (9).prefab using Guid(f633ca684f05842ae9c188889624d149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c617316d229208112060806bb3eec893') in 0.006357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (154).prefab
+  artifactKey: Guid(75a76948ef2b34a83bc4935188b26b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (154).prefab using Guid(75a76948ef2b34a83bc4935188b26b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03ae297dbfa8fcee8296cf3d3c2fcd2') in 0.006718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (11).prefab
+  artifactKey: Guid(2690f73c6b0194548bfebf8be08f0d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (11).prefab using Guid(2690f73c6b0194548bfebf8be08f0d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb2142b55828a5da3b47f052308222f') in 0.006181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (26).prefab
+  artifactKey: Guid(e1ee8e1ab0b094cc28a083fee23556fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (26).prefab using Guid(e1ee8e1ab0b094cc28a083fee23556fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64a4ce9fdd7420f3c88b8bc9e976491') in 0.005877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002276 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (32).prefab
+  artifactKey: Guid(5b020f75a7fd642289e2bc58a377ea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (32).prefab using Guid(5b020f75a7fd642289e2bc58a377ea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bf38a8d2ffd01a7afe86c8ad36af04') in 0.005820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (119).prefab
+  artifactKey: Guid(e577abb1388124fa3914df237a9955f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (119).prefab using Guid(e577abb1388124fa3914df237a9955f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aaa15f8b660385175015d49a1fa129b') in 0.006317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (4).prefab
+  artifactKey: Guid(4842ede8271dd4428ae55005eac90dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (4).prefab using Guid(4842ede8271dd4428ae55005eac90dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f779ff245fe0c1ea278f530cecfecc') in 0.006957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (115).prefab
+  artifactKey: Guid(669d998ffebfa47579e99200c6f621bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (115).prefab using Guid(669d998ffebfa47579e99200c6f621bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c75552b626fe0b5dace89a9bd38b25') in 0.006061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (153).prefab
+  artifactKey: Guid(791ed17e0323a4952adc96cd5a65e0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (153).prefab using Guid(791ed17e0323a4952adc96cd5a65e0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4b4a04e5d8c4fe3ffa9997e4aabfb3') in 0.006174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000877 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (95).prefab
+  artifactKey: Guid(cbd47251a65344d7b879ce81a5649580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (95).prefab using Guid(cbd47251a65344d7b879ce81a5649580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9c99eea9779f6208a41b7f61ac7857') in 0.005675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (23).prefab
+  artifactKey: Guid(6b0b599cd25374d7ea8df40e589cf865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (23).prefab using Guid(6b0b599cd25374d7ea8df40e589cf865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c773f211e58ba63807aa4ec3cf5956') in 0.006036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (100).prefab
+  artifactKey: Guid(9d15146aa2aea454db88e2d904f41bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (100).prefab using Guid(9d15146aa2aea454db88e2d904f41bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa3d1cbb63f9fe0f176d3a6f4f49785') in 0.006838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (99).prefab
+  artifactKey: Guid(c57c634f178d54c1eb09713d34e48810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (99).prefab using Guid(c57c634f178d54c1eb09713d34e48810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0867f474efc1f73f735e17d19a806f') in 0.005952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (1).prefab
+  artifactKey: Guid(83be057114ea84137b9af61f83e56338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (1).prefab using Guid(83be057114ea84137b9af61f83e56338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472fc4f8b9d65f57241a7c469a8e30a5') in 0.007148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001947 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (58).prefab
+  artifactKey: Guid(70eb10ddda2e14a9782f912228c99888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (58).prefab using Guid(70eb10ddda2e14a9782f912228c99888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b3e9affb7e0b8a2b453364d3433669') in 0.005551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (7).prefab
+  artifactKey: Guid(a833739d0c4cb48cbb11ece7bf08c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (7).prefab using Guid(a833739d0c4cb48cbb11ece7bf08c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bde7033ea4699197569f2fbdaf8bd5') in 0.005970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B.prefab
+  artifactKey: Guid(22fe2f525d4824dcc8e9944b99e064aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B.prefab using Guid(22fe2f525d4824dcc8e9944b99e064aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969f645a4d4a8901adc1fdbbac73a250') in 0.006914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (21).prefab
+  artifactKey: Guid(5c00c07e80e1a4f04aee2dd1b20a1d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (21).prefab using Guid(5c00c07e80e1a4f04aee2dd1b20a1d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f763fab98d44c612a1dfcbc000f3e948') in 0.005428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (17).prefab
+  artifactKey: Guid(7d7d0b38b48f247a3aaa7fd864dcc75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (17).prefab using Guid(7d7d0b38b48f247a3aaa7fd864dcc75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2eabad6f4cfe78507b99b15114de95d') in 0.006164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005695 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerOut (13).prefab
+  artifactKey: Guid(fe725d076f4ca449d9176e6fc3f0ce68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerOut (13).prefab using Guid(fe725d076f4ca449d9176e6fc3f0ce68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db929cc1509b9b3750be5a4e1a1c9a3d') in 0.006492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (22).prefab
+  artifactKey: Guid(9fe0342513f954fb08d43d596a64ff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (22).prefab using Guid(9fe0342513f954fb08d43d596a64ff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc3cc8696121516c19865546dc79b39') in 0.006149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_edge_A (7).prefab
+  artifactKey: Guid(718791a23bc8b480cb65a6ea3ba2aa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_edge_A (7).prefab using Guid(718791a23bc8b480cb65a6ea3ba2aa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee75b984fb5ca803d2934d1ca66499d') in 0.006382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (27).prefab
+  artifactKey: Guid(c508f483492e2467bb7279e8e1769fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (27).prefab using Guid(c508f483492e2467bb7279e8e1769fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06af1100a4d1fd0360d4581066d18302') in 0.005870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_B (3).prefab
+  artifactKey: Guid(79cf6bbf98c9e468bb4972c7c9c5fd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_B (3).prefab using Guid(79cf6bbf98c9e468bb4972c7c9c5fd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84f2e016877155709e925ab1462c7d1') in 0.006171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_B.prefab
+  artifactKey: Guid(043094f32d9684d00a4bfc2612b4d997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_B.prefab using Guid(043094f32d9684d00a4bfc2612b4d997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd946772701e89b2e772c68e8265b2b72') in 0.005846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_A (3).prefab
+  artifactKey: Guid(93542a86675334bceaa38ad4c61217ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_A (3).prefab using Guid(93542a86675334bceaa38ad4c61217ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97107e84ebd7dc8a1c08f4c4f608a5a9') in 0.006071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_B (5).prefab
+  artifactKey: Guid(19dc5e920cac14778928c18cb380909a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_B (5).prefab using Guid(19dc5e920cac14778928c18cb380909a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347b8157b760cba6ab59ec07fa2e1af3') in 0.006124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_A.prefab
+  artifactKey: Guid(51d37e277967c4d3abb243a3943fe199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_A.prefab using Guid(51d37e277967c4d3abb243a3943fe199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7973e167fe496cd565bf437c9a3db3d2') in 0.005722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_door (2).prefab
+  artifactKey: Guid(d93f28ea2266b44b2a52e506b7fa7d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_door (2).prefab using Guid(d93f28ea2266b44b2a52e506b7fa7d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f9a1eed79906243dec9c617bbb3dea') in 0.007637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (5).prefab
+  artifactKey: Guid(fda76c13d5c664add88cd7896063d1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (5).prefab using Guid(fda76c13d5c664add88cd7896063d1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a415f7cd11ab5d81d6b4eae58cc3fc85') in 0.005610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_door (1).prefab
+  artifactKey: Guid(32f6e11cdda6248a8bf082cd5625108f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_door (1).prefab using Guid(32f6e11cdda6248a8bf082cd5625108f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d05a01af74eabbc805eb3a9357f8b02') in 0.005353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (13).prefab
+  artifactKey: Guid(bb8a27324d4d3437daecb3be70a07f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (13).prefab using Guid(bb8a27324d4d3437daecb3be70a07f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9775716e6230e448b60c5cd9bcbc57') in 0.005973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerOut (6).prefab
+  artifactKey: Guid(267e4cf0e47964f0ba6dd06817d33582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerOut (6).prefab using Guid(267e4cf0e47964f0ba6dd06817d33582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66bcc759e15919e3789eec417bc060c') in 0.005268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_A (20).prefab
+  artifactKey: Guid(0b3b9a6f0623b49c29a6371e553e666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_A (20).prefab using Guid(0b3b9a6f0623b49c29a6371e553e666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3a82107a310614bda46cd13182bafb') in 0.006130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001125 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (10).prefab
+  artifactKey: Guid(c4fa667da52cc4aa3afc2b5c639fef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (10).prefab using Guid(c4fa667da52cc4aa3afc2b5c639fef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b2b3b21ae78278a65316ea2ac96def') in 0.006263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (18).prefab
+  artifactKey: Guid(30af9ad9581b44718bf433817e92dbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (18).prefab using Guid(30af9ad9581b44718bf433817e92dbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4845a2f79a650d73558e43088d144f') in 0.006996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (29).prefab
+  artifactKey: Guid(102628538611245358a688679fc69dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (29).prefab using Guid(102628538611245358a688679fc69dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c695b43ef358f9e4dee5bad95b862b') in 0.006857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_B (4).prefab
+  artifactKey: Guid(10cbecc77c6e34f08a626747d09587dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_B (4).prefab using Guid(10cbecc77c6e34f08a626747d09587dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b115da30eb803862a2e681de60916a2e') in 0.005322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_B (11).prefab
+  artifactKey: Guid(09e409a299ea94091b24579f3ee8d503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_B (11).prefab using Guid(09e409a299ea94091b24579f3ee8d503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e098b738cc32f15b965589bce471d88b') in 0.005804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006419 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (14).prefab
+  artifactKey: Guid(23cb4122d0873446ebda73f3e976b2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (14).prefab using Guid(23cb4122d0873446ebda73f3e976b2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e13930443ff0b2a23a7e0f1767ed6f') in 0.005633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (2).prefab
+  artifactKey: Guid(d422cfec099ca45558ef0b6b3bc244ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (2).prefab using Guid(d422cfec099ca45558ef0b6b3bc244ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fb9653f48618a2bcef6c0a590c3d4c') in 0.005909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_B (1).prefab
+  artifactKey: Guid(ec4ec8063ff69452580a48ea4b9821da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_B (1).prefab using Guid(ec4ec8063ff69452580a48ea4b9821da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b90fc468807757cd1dd95ebe44c6992') in 0.007113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (3).prefab
+  artifactKey: Guid(f20faed7ffea34dea8362b8611333572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (3).prefab using Guid(f20faed7ffea34dea8362b8611333572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc50080e4cf25bc8ffa713f053f536b') in 0.006295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerOut (10).prefab
+  artifactKey: Guid(ebaa6dbc6844d48f78792c749dbbc317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerOut (10).prefab using Guid(ebaa6dbc6844d48f78792c749dbbc317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f5a3e1d28985541bf454e92638c101') in 0.006309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002569 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1vert (3).prefab
+  artifactKey: Guid(557e706a2de8041b2badc63a67fc7132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1vert (3).prefab using Guid(557e706a2de8041b2badc63a67fc7132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9637d31002ac314fc68ceadea6b79b2e') in 0.006213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_3lines (1).prefab
+  artifactKey: Guid(82c1280c80c114c5299274bdd3ff978d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_3lines (1).prefab using Guid(82c1280c80c114c5299274bdd3ff978d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4dd9640861c7be67564ba6d1874b734') in 0.006984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_corner (9).prefab
+  artifactKey: Guid(b19c672633894496d87114ce22c98e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_corner (9).prefab using Guid(b19c672633894496d87114ce22c98e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500d55bb01fd53b8928e60cff0ff1604') in 0.006570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerOut (13).prefab
+  artifactKey: Guid(3e00af27b65644d23b02646c6cf6abeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerOut (13).prefab using Guid(3e00af27b65644d23b02646c6cf6abeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11aa4b801c83a3105c57f2e86a405970') in 0.005997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerOut (6).prefab
+  artifactKey: Guid(9dc93cef33f364175b2a4c2db023c479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerOut (6).prefab using Guid(9dc93cef33f364175b2a4c2db023c479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac897ac30b6869f99f1564b44fd1f6b') in 0.006693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_2walls_B (1).prefab
+  artifactKey: Guid(28c2ee2396ca241249fc425c1694ef26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_2walls_B (1).prefab using Guid(28c2ee2396ca241249fc425c1694ef26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4289f6ff8ac3596279edacb82a3743') in 0.006626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (2).prefab
+  artifactKey: Guid(36ebab48b66824caea4ccbb6de58cce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (2).prefab using Guid(36ebab48b66824caea4ccbb6de58cce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592b99d9915b78aa329d8bcc08e7b542') in 0.008118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (4).prefab
+  artifactKey: Guid(33c6fca9cd7b940439c32f76862ef31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (4).prefab using Guid(33c6fca9cd7b940439c32f76862ef31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b192108f98a1d4048cd1011e5f858c') in 0.006865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_door.prefab
+  artifactKey: Guid(f3176a1152b0740ca8083fa4e9769243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_door.prefab using Guid(f3176a1152b0740ca8083fa4e9769243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9edd365f434ff1be8e91149983f4e8') in 0.007065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001516 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1vert (1).prefab
+  artifactKey: Guid(60b32fd8f69f945d0b7d1ac6a8c48690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1vert (1).prefab using Guid(60b32fd8f69f945d0b7d1ac6a8c48690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97f5568a664570396126ac72fdaf4c2') in 0.006313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_A (6).prefab
+  artifactKey: Guid(c2305810256d54ac5b51b114d06f1148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_A (6).prefab using Guid(c2305810256d54ac5b51b114d06f1148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f38c3804aeddbbef66a274be54a2af') in 0.006229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_corner (5).prefab
+  artifactKey: Guid(b1f1a428afd53476c9313caa9155343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_corner (5).prefab using Guid(b1f1a428afd53476c9313caa9155343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72bcd5bb04adc6292a1ccc2c2b64e09') in 0.007240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerOut (9).prefab
+  artifactKey: Guid(52bc1ad46a22549dba871a975aa49910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerOut (9).prefab using Guid(52bc1ad46a22549dba871a975aa49910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74391871dfbc4a7b9b530f1ad9c838a0') in 0.005558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_B (4).prefab
+  artifactKey: Guid(d490fb11cf5c844608417f5c1ef054b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_B (4).prefab using Guid(d490fb11cf5c844608417f5c1ef054b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53def6fb34ed5a439f8d53304d664972') in 0.005955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000940 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_edge_A (6).prefab
+  artifactKey: Guid(27b2a5b40296341c7b52e21475816f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_edge_A (6).prefab using Guid(27b2a5b40296341c7b52e21475816f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9565c37be907e16585884d4446bdb2') in 0.005672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (4).prefab
+  artifactKey: Guid(10e59131b1b834d0991894437eef095d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (4).prefab using Guid(10e59131b1b834d0991894437eef095d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb3ad80fe795c17a08a571c68c4230c') in 0.005800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1line (22).prefab
+  artifactKey: Guid(73ec9daf0fb414990bd5f1f2294f993e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1line (22).prefab using Guid(73ec9daf0fb414990bd5f1f2294f993e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d0b92aed1341c2052d0fd9507eee3a') in 0.006123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerInOut.prefab
+  artifactKey: Guid(334c69c29efaf4b249ac5ca4169fee84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerInOut.prefab using Guid(334c69c29efaf4b249ac5ca4169fee84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a5e5d6a8a8f5148895e51122138edc') in 0.006130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004678 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerOutIn (4).prefab
+  artifactKey: Guid(65c4a26d6753449cfafdc62506b802f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerOutIn (4).prefab using Guid(65c4a26d6753449cfafdc62506b802f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7894d0d247e4bea50dfc734abe7a8721') in 0.005544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerOut (7).prefab
+  artifactKey: Guid(407f43128cee24a73828dfaa9b1058ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerOut (7).prefab using Guid(407f43128cee24a73828dfaa9b1058ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2adbf182c7cb69421d0d6b2fcca65fc6') in 0.006647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_A (17).prefab
+  artifactKey: Guid(cbe052467f06843f284603441ee83a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_A (17).prefab using Guid(cbe052467f06843f284603441ee83a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11736baec010bed585cbb808b4df024') in 0.006807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerOut (9).prefab
+  artifactKey: Guid(a41a63dcc13ff40198e05e5378ccfb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerOut (9).prefab using Guid(a41a63dcc13ff40198e05e5378ccfb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e04756efcb506d53d5f63c5321333aa') in 0.006133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (101).prefab
+  artifactKey: Guid(402d21b468a7848b3ab35c3b8b28ad27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (101).prefab using Guid(402d21b468a7848b3ab35c3b8b28ad27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c5ea04e96dcc7c00d8415dca74a3ef') in 0.006714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002861 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloor_A (8).prefab
+  artifactKey: Guid(78fdfcc7990724839b7551bbc9fc1369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloor_A (8).prefab using Guid(78fdfcc7990724839b7551bbc9fc1369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3db2b495d917046bb2510b2bc3b605') in 0.005526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloor_A (5).prefab
+  artifactKey: Guid(e6c734b5f52ef499ba88fb93ee960628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloor_A (5).prefab using Guid(e6c734b5f52ef499ba88fb93ee960628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b1e5581e890f05a9d9ad87a2abda9e') in 0.006050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_B (2).prefab
+  artifactKey: Guid(0db23be27a5ad4da78a336c331568240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_B (2).prefab using Guid(0db23be27a5ad4da78a336c331568240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a2deacb883b5c28a4cb2ab6a451434') in 0.005969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (3).prefab
+  artifactKey: Guid(1a5f42e864a93442aa51efc88abef99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (3).prefab using Guid(1a5f42e864a93442aa51efc88abef99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4506e9679c3105f178df458eaf7c109') in 0.006530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerInOut (1).prefab
+  artifactKey: Guid(25872d819790d47f680847afa2e3fe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerInOut (1).prefab using Guid(25872d819790d47f680847afa2e3fe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4aa7afcf01effd72faa9486115e49e9') in 0.005946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerOut (5).prefab
+  artifactKey: Guid(2549883e962fd46e89e4da8949b293a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerOut (5).prefab using Guid(2549883e962fd46e89e4da8949b293a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427ca1540f4f25ecec36cbf1a1a4238f') in 0.007497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_B (5).prefab
+  artifactKey: Guid(5ccc7d2cb97324fa68e53521227eb373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_B (5).prefab using Guid(5ccc7d2cb97324fa68e53521227eb373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8151a3dd0ece0e4da98532dce84264d7') in 0.006621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (23).prefab
+  artifactKey: Guid(a14883a10c05b464abcfdc2c7a61da4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (23).prefab using Guid(a14883a10c05b464abcfdc2c7a61da4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8974a063279e75a26f9a9a0a2634caf') in 0.005877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001213 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (6).prefab
+  artifactKey: Guid(56165e53fce1648d7acf7d5f5a668712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (6).prefab using Guid(56165e53fce1648d7acf7d5f5a668712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73ff7f3153d57fce225c948fc01d3db') in 0.005418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1vert (8).prefab
+  artifactKey: Guid(ddfe119a8d90f4c37b3b655fab9299a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1vert (8).prefab using Guid(ddfe119a8d90f4c37b3b655fab9299a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637420c16701921b4ddce7e3a1134234') in 0.005882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerOut (1).prefab
+  artifactKey: Guid(46594c012bf344f7ea632c33d4469467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerOut (1).prefab using Guid(46594c012bf344f7ea632c33d4469467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007512ea9f31c25b227dede6cd2ca127') in 0.007516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (18).prefab
+  artifactKey: Guid(0af1bc27a6bff4e9590ed715e2b3d6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (18).prefab using Guid(0af1bc27a6bff4e9590ed715e2b3d6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1d8d300c86b0586275121cefd1d79f') in 0.005787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerOut (2).prefab
+  artifactKey: Guid(aa5f58f3d21244735a25477ba1775c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerOut (2).prefab using Guid(aa5f58f3d21244735a25477ba1775c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64559fa291b7ee4afbe08d4c2d95fe16') in 0.007640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (1).prefab
+  artifactKey: Guid(a7615d2d0c68843b5b968cc853406e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (1).prefab using Guid(a7615d2d0c68843b5b968cc853406e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff76dac0b758757067499ca792604aa') in 0.004901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_B.prefab
+  artifactKey: Guid(8b0e6e1aa538c4772b431801b60d084c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_B.prefab using Guid(8b0e6e1aa538c4772b431801b60d084c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129a74a728f7b180e7af0f22635a2c0b') in 0.006120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (96).prefab
+  artifactKey: Guid(70615bd17378646b09e241a0c0e10bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_A (96).prefab using Guid(70615bd17378646b09e241a0c0e10bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737c4ee0a3011aee30ff420289edee06') in 0.005853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1line (18).prefab
+  artifactKey: Guid(e8febb47959b343f88e6c9fc04e492f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1line (18).prefab using Guid(e8febb47959b343f88e6c9fc04e492f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad375f13c7bc646fd07136bb4df2f7e9') in 0.005031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerOut (12).prefab
+  artifactKey: Guid(ae25f2036145d4b19a23be3658842236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerOut (12).prefab using Guid(ae25f2036145d4b19a23be3658842236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe104a92c50888b73d6c693fbadd46e') in 0.006577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (8).prefab
+  artifactKey: Guid(8b7347493c5f64955bbfd763e2a4f6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (8).prefab using Guid(8b7347493c5f64955bbfd763e2a4f6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96e4e42d873b224ebac497cf0c40fe7') in 0.005008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_corner (6).prefab
+  artifactKey: Guid(b0e02b6c9c2da4deb914407b22d60687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_corner (6).prefab using Guid(b0e02b6c9c2da4deb914407b22d60687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fa39808e7e72308e2ac2f34b11f2a6') in 0.005341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1line (17).prefab
+  artifactKey: Guid(6b762e3a1b28f4acbb1439bcefdf0246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1line (17).prefab using Guid(6b762e3a1b28f4acbb1439bcefdf0246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abdd1c5ab744f20f2505cc84afa8de0') in 0.006337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_corner (7).prefab
+  artifactKey: Guid(e6799a6a0a45041989d465961d56bcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_corner (7).prefab using Guid(e6799a6a0a45041989d465961d56bcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134655c2d27bb049dc90d4c570c5abe1') in 0.007135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000728 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1line (16).prefab
+  artifactKey: Guid(5302c23df39e44081956239a05527bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1line (16).prefab using Guid(5302c23df39e44081956239a05527bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb4aea5dcbc4b2b3c7746c4c669f858') in 0.005910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerOut (5).prefab
+  artifactKey: Guid(d82647e698a7d42f1b58471464ec042c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerOut (5).prefab using Guid(d82647e698a7d42f1b58471464ec042c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f493118dd1f0c38581e6f81431d7b26') in 0.006721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_corner (13).prefab
+  artifactKey: Guid(d0db81208de804664b236ac2e3d81088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_corner (13).prefab using Guid(d0db81208de804664b236ac2e3d81088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421057a38a31bdcab1ef2eca87f29d1f') in 0.006450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (16).prefab
+  artifactKey: Guid(e80f6b913553f4b48ace66d07c5886a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (16).prefab using Guid(e80f6b913553f4b48ace66d07c5886a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b11eba3ead975d2d13d3c46f0674a0') in 0.005914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (15).prefab
+  artifactKey: Guid(11738cc102d59443a97a01a1ae831927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (15).prefab using Guid(11738cc102d59443a97a01a1ae831927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6300432c07f9b03bd12e70c4be078ebb') in 0.007107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003426 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1vert (9).prefab
+  artifactKey: Guid(d9a72f91513534b3e9ff6714b950b522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1vert (9).prefab using Guid(d9a72f91513534b3e9ff6714b950b522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3aa8b0bb8ffae582bd95ab7a9c4a85') in 0.005464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (9).prefab
+  artifactKey: Guid(c23d3a46d36e84d5c9a6c04839a36b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (9).prefab using Guid(c23d3a46d36e84d5c9a6c04839a36b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4822b6f635c80376c2382b865b9b89') in 0.006529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (24).prefab
+  artifactKey: Guid(cf9cba3887dc44260a5c7f647c5ed6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (24).prefab using Guid(cf9cba3887dc44260a5c7f647c5ed6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37ad2631deae0e6b8a34c15ca1afcc3') in 0.007312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1line (11).prefab
+  artifactKey: Guid(4def0d026b24d4a79aeddeb27c7908e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1line (11).prefab using Guid(4def0d026b24d4a79aeddeb27c7908e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb04fe67a50bed86cbef713b09bde63d') in 0.005818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_B (4).prefab
+  artifactKey: Guid(212707c3b4c0d4072a1abd0972d352d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_B (4).prefab using Guid(212707c3b4c0d4072a1abd0972d352d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f059b217e3beaa9f813b681c399fdc1b') in 0.006600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (20).prefab
+  artifactKey: Guid(b4593f4c27afb4f1fa78d89d8bd97340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (20).prefab using Guid(b4593f4c27afb4f1fa78d89d8bd97340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfb62dea2b26db9235e52c6ea378a8e') in 0.005532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_B (7).prefab
+  artifactKey: Guid(4348693660f6948c58ad36e15f2c413c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_B (7).prefab using Guid(4348693660f6948c58ad36e15f2c413c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004ed66691608fd640bdcab253fc50ef') in 0.005546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (5).prefab
+  artifactKey: Guid(9b59ab309c29747f5ad45ee17befae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (5).prefab using Guid(9b59ab309c29747f5ad45ee17befae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c99799d742c1ec08bfa51975278e13') in 0.006900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1vert (5).prefab
+  artifactKey: Guid(25f6bc9bbc3144a96a54e317065acd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1vert (5).prefab using Guid(25f6bc9bbc3144a96a54e317065acd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b329c3643676331b597f4fcf4ecf91a6') in 0.005937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (27).prefab
+  artifactKey: Guid(00e73cdbe209e454b96cebe3e17e3a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (27).prefab using Guid(00e73cdbe209e454b96cebe3e17e3a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1400746fe35aea693562be66e58314a5') in 0.006318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (44).prefab
+  artifactKey: Guid(84213fa54547048a99040bc5c98cb673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (44).prefab using Guid(84213fa54547048a99040bc5c98cb673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1707a086b941b0997600f5382ce7b1c') in 0.005645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_B (6).prefab
+  artifactKey: Guid(def770a949b12424bb746e25fdf3ddf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_B (6).prefab using Guid(def770a949b12424bb746e25fdf3ddf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd0896ed59b570929a8d75104d0abff') in 0.006027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerOut (14).prefab
+  artifactKey: Guid(01acf0e86ade348b799ed9a27d119de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerOut (14).prefab using Guid(01acf0e86ade348b799ed9a27d119de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b2f048f1aec46727a6cfdd98ea4689') in 0.007056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_corner (1).prefab
+  artifactKey: Guid(2da67c1226d9740c889bd6abddc1a104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_corner (1).prefab using Guid(2da67c1226d9740c889bd6abddc1a104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a9ca0aafd4c7d584f593959a7472ad') in 0.005942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerOut (4).prefab
+  artifactKey: Guid(bb937aac2e7634638b38b2ba6d8518e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerOut (4).prefab using Guid(bb937aac2e7634638b38b2ba6d8518e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87a84920b513480d8ed0dfe1d8b4633') in 0.007881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (21).prefab
+  artifactKey: Guid(cf4e7aac944804b5e946f9d3b6dbafeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (21).prefab using Guid(cf4e7aac944804b5e946f9d3b6dbafeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcf47410713cedc21c620014cbc2084') in 0.007019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005824 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_B (10).prefab
+  artifactKey: Guid(6b9e88385b0f144c1963e9444ba97160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_B (10).prefab using Guid(6b9e88385b0f144c1963e9444ba97160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693e2b3739d38d88b87105920a4ccb39') in 0.006472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_A (7).prefab
+  artifactKey: Guid(d598cc2519fb44909a87e35dffa0bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_A (7).prefab using Guid(d598cc2519fb44909a87e35dffa0bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bd0b99db92292ea3ec89b9c750147f') in 0.005678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (11).prefab
+  artifactKey: Guid(8ef801c1806894e39a1a1fde143e86eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_A (11).prefab using Guid(8ef801c1806894e39a1a1fde143e86eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c4dd3adef59ff8c569f8c47bbf8ee6') in 0.006729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_2walls_B (5).prefab
+  artifactKey: Guid(549f458c24c904da0bb039d7eeb11398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_2walls_B (5).prefab using Guid(549f458c24c904da0bb039d7eeb11398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42400c3143d0a86ff002e63956d357f4') in 0.005861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_edge_B (3).prefab
+  artifactKey: Guid(e5e0667a4d4e94213a6164fa569a0402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_edge_B (3).prefab using Guid(e5e0667a4d4e94213a6164fa569a0402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f6d2988a1132047538f56ee7742426') in 0.005742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (29).prefab
+  artifactKey: Guid(461b36f9a2826474cace1a0af53224ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (29).prefab using Guid(461b36f9a2826474cace1a0af53224ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8cda48bf42ef65077b0673c531cff9') in 0.006031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerInCap_B (1).prefab
+  artifactKey: Guid(32ffdae4094564cf0ba93e37d0375c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerInCap_B (1).prefab using Guid(32ffdae4094564cf0ba93e37d0375c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5878fcc7f3894c9180f077e678e2b87') in 0.006309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_A (4).prefab
+  artifactKey: Guid(728c7fe9f625744f292a9a70fb77dff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_A (4).prefab using Guid(728c7fe9f625744f292a9a70fb77dff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a804ab148be8d44eef47ff88cd60df63') in 0.006349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_A (8).prefab
+  artifactKey: Guid(c9f4639146a934b1ab7fafde737a4aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_A (8).prefab using Guid(c9f4639146a934b1ab7fafde737a4aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55033c8473943c2e8386b25779d37a62') in 0.006048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004098 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1line (21).prefab
+  artifactKey: Guid(b6c9bdc024e4145769fdb968e333b1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/waterfloorEdge_1line (21).prefab using Guid(b6c9bdc024e4145769fdb968e333b1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbdc25f310806a2936894f62f5bf132') in 0.005731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (14).prefab
+  artifactKey: Guid(db31e175b16d94fefaaf0953c58d96b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_B (14).prefab using Guid(db31e175b16d94fefaaf0953c58d96b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a9f638510ad5220d6e2e387445c151') in 0.006481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_B (6).prefab
+  artifactKey: Guid(0f5a33bf1d0324cc4b82cd2e863e0d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_B (6).prefab using Guid(0f5a33bf1d0324cc4b82cd2e863e0d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dea802060c089eac07b569f7b373d63') in 0.007267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (8).prefab
+  artifactKey: Guid(df6a9d0c970a840268efefd4c4a09bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wall_cornerIn (8).prefab using Guid(df6a9d0c970a840268efefd4c4a09bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95087f28bbf6fc2140dc65034430f64a') in 0.005774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_A (16).prefab
+  artifactKey: Guid(81b8da1d0de4446ef85ac3a503ce20a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_A (16).prefab using Guid(81b8da1d0de4446ef85ac3a503ce20a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a050605099c0fcf126ddfdb51d6c734c') in 0.006720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_A (9).prefab
+  artifactKey: Guid(31c319b884eaa4eae921ca0e7a10f1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallBottom_A (9).prefab using Guid(31c319b884eaa4eae921ca0e7a10f1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90eb28fe17bb145e29be0dfc30ced3b') in 0.005679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_2walls_B (3).prefab
+  artifactKey: Guid(ee284a7e7217b4d8196ec9e0aa60ea5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_2walls_B (3).prefab using Guid(ee284a7e7217b4d8196ec9e0aa60ea5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988fb7a541ad83db0cdb51d26e86530b') in 0.006559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_B (2).prefab
+  artifactKey: Guid(1147d1ed8b8664ea2a5937c611cbdcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallHole_1wall_B (2).prefab using Guid(1147d1ed8b8664ea2a5937c611cbdcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74055a5b8e01e30905d9e70be277a3f') in 0.006341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.532139 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_B (7).prefab
+  artifactKey: Guid(f3b4d457db4174cd9a2d2d6e2e5bc526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_B (7).prefab using Guid(f3b4d457db4174cd9a2d2d6e2e5bc526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e6967c1301df3f0b343058f39dc43e') in 0.007524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002186 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerIn (1).prefab
+  artifactKey: Guid(93312a7cb0d2b45faa2cc1df9770aa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerIn (1).prefab using Guid(93312a7cb0d2b45faa2cc1df9770aa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75a6cf63208bc0efd87a5aec11ffa51') in 0.007316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerIn (2).prefab
+  artifactKey: Guid(1e6dad9b6ce4a4854b4def6c90ba368a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerIn (2).prefab using Guid(1e6dad9b6ce4a4854b4def6c90ba368a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555ac7736d7e812e12182eb9a004e02e') in 0.005955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_B (11).prefab
+  artifactKey: Guid(7b2eab2c6e2484e1bafe51ac21f1a7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_B (11).prefab using Guid(7b2eab2c6e2484e1bafe51ac21f1a7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f0164260be31b9d327691090a2d8f0') in 0.007098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003893 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerOut (3).prefab
+  artifactKey: Guid(992c8f3f9e4a34b8b8a20d6f3867d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_cornerOut (3).prefab using Guid(992c8f3f9e4a34b8b8a20d6f3867d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fb1f1ab35028050b83e065ac0a073d') in 0.005741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_B (9).prefab
+  artifactKey: Guid(fd369f0cd08294fe592d286511b98671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_B (9).prefab using Guid(fd369f0cd08294fe592d286511b98671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3860349fd1efc8f8edddc667af54cc') in 0.006372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_B (12).prefab
+  artifactKey: Guid(5981ba5c300e84075b93cbd4dbbc3487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Examples & Extras/Prefabs/wallMini_B (12).prefab using Guid(5981ba5c300e84075b93cbd4dbbc3487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccdd0cce56e3fcd499012659298f226') in 0.007427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.987171 seconds.
+  path: Assets/Flooring/(-2, 2).prefab
+  artifactKey: Guid(9cfe4841e724e4654bb2080a23cd76c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooring/(-2, 2).prefab using Guid(9cfe4841e724e4654bb2080a23cd76c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13368b1902e9ecf81064d9101c6bdb8') in 0.054248 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001875 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f10b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.629 seconds
+Domain Reload Profiling:
+	ReloadAssembly (629ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (474ms)
+			LoadAssemblies (39ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3514 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (47.7 KB). Loaded Objects now: 4037.
+Memory consumption went from 349.0 MB to 349.0 MB.
+Total: 2.774458 ms (FindLiveObjects: 0.190458 ms CreateObjectMapping: 0.050084 ms MarkObjects: 2.447500 ms  DeleteObjects: 0.085666 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 396.490689 seconds.
+  path: Assets/Enemy/DogPolyart.prefab
+  artifactKey: Guid(45288819fde2143449a96207b14db0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/DogPolyart.prefab using Guid(45288819fde2143449a96207b14db0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051c96e884272b0c407547670293776a') in 0.366812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.748475 seconds.
+  path: Assets/Towers/MainTower.prefab
+  artifactKey: Guid(cee43684473c242a9a38fc30685b8a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/MainTower.prefab using Guid(cee43684473c242a9a38fc30685b8a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7ed60a28b899a838d3929e3bcd9ad8') in 0.046127 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001569 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f10b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.598 seconds
+Domain Reload Profiling:
+	ReloadAssembly (599ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (453ms)
+			LoadAssemblies (37ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (146ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (208ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3514 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (47.4 KB). Loaded Objects now: 4041.
+Memory consumption went from 365.4 MB to 365.4 MB.
+Total: 2.978209 ms (FindLiveObjects: 0.159709 ms CreateObjectMapping: 0.052541 ms MarkObjects: 2.687667 ms  DeleteObjects: 0.077333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001579 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f10b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.594 seconds
+Domain Reload Profiling:
+	ReloadAssembly (594ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (447ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (145ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (205ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3514 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (46.7 KB). Loaded Objects now: 4044.
+Memory consumption went from 368.7 MB to 368.7 MB.
+Total: 2.698958 ms (FindLiveObjects: 0.143500 ms CreateObjectMapping: 0.058666 ms MarkObjects: 2.400125 ms  DeleteObjects: 0.095792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001910 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f10b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.590 seconds
+Domain Reload Profiling:
+	ReloadAssembly (590ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (441ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (144ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3514 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (47.7 KB). Loaded Objects now: 4047.
+Memory consumption went from 372.1 MB to 372.0 MB.
+Total: 2.692458 ms (FindLiveObjects: 0.185750 ms CreateObjectMapping: 0.044375 ms MarkObjects: 2.287584 ms  DeleteObjects: 0.173333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001855 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f10b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.566 seconds
+Domain Reload Profiling:
+	ReloadAssembly (566ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (438ms)
+			LoadAssemblies (37ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (138ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (206ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3514 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (46.7 KB). Loaded Objects now: 4050.
+Memory consumption went from 375.4 MB to 375.4 MB.
+Total: 2.548833 ms (FindLiveObjects: 0.232625 ms CreateObjectMapping: 0.066333 ms MarkObjects: 2.176292 ms  DeleteObjects: 0.072625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001684 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f10b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.592 seconds
+Domain Reload Profiling:
+	ReloadAssembly (592ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (452ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (148ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (207ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3514 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (46.8 KB). Loaded Objects now: 4053.
+Memory consumption went from 378.7 MB to 378.7 MB.
+Total: 2.710917 ms (FindLiveObjects: 0.169917 ms CreateObjectMapping: 0.067583 ms MarkObjects: 2.381584 ms  DeleteObjects: 0.091042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001811 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f10b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.607 seconds
+Domain Reload Profiling:
+	ReloadAssembly (608ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (456ms)
+			LoadAssemblies (39ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (145ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3514 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (46.8 KB). Loaded Objects now: 4056.
+Memory consumption went from 382.0 MB to 382.0 MB.
+Total: 2.760125 ms (FindLiveObjects: 0.143375 ms CreateObjectMapping: 0.045542 ms MarkObjects: 2.501917 ms  DeleteObjects: 0.068917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001950 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f10b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/Shared/D/Entertain/CS50G/UNITY/StandBy404/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.605 seconds
+Domain Reload Profiling:
+	ReloadAssembly (605ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (451ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (146ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (208ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3514 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (46.7 KB). Loaded Objects now: 4059.
+Memory consumption went from 385.4 MB to 385.3 MB.
+Total: 2.919750 ms (FindLiveObjects: 0.142666 ms CreateObjectMapping: 0.055042 ms MarkObjects: 2.603916 ms  DeleteObjects: 0.117250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
