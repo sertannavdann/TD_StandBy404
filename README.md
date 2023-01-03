@@ -1,8 +1,7 @@
-## Images
+## Images for Tower Defence
 
-![First](1.png)
-![Second](2.png)
-![Third](3.png)
+<img src="1.png" width="200">
+<img src="2.png" width="200">
 
 ## Demo Video for My Tower Defense Game
 
