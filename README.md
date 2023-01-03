@@ -1,11 +1,11 @@
 ## Images for Tower Defence
+
 <p align="center">
   <img src="1.png" width="400">
   <img src="2.png" width="400">
 </p>
-## Demo Video for My Tower Defense Game
 
-You can include a YouTube video by using the following syntax:
+## Demo Video 
 
 [![TD_Demo](3.png)](https://www.youtube.com/watch?v=ydA9TLp9W94)
 
